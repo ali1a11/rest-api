@@ -1,6 +1,6 @@
-# REST API Docker Setup
-
-This repository contains Docker images for a REST API, Nginx reverse proxy, and MySQL database. The images are hosted on Docker Hub and can be pulled and used in your projects.
+# Arbeidskrav: Dockerisert Applikasjon
+# Emne 8 Cloud-teknikker, web-arkitektur og container teknologi
+# Docker Setup
 
 ## 🚀 Getting Started
 
