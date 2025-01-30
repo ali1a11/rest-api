@@ -92,25 +92,6 @@ docker-compose down
 - **Nginx:** [alia012/rest-api-nginx](https://hub.docker.com/r/alia012/rest-api-nginx)
 - **MySQL:** [alia012/mysql](https://hub.docker.com/r/alia012/mysql)
 
-## 🛠 Customization
-If you want to extend the `simpleapi` image, you can create a `Dockerfile` like this:
-
-```dockerfile
-FROM alia012/rest-api-simpleapi:latest
-COPY . /app
-WORKDIR /app
-CMD ["dotnet", "SimpleApi.dll"]
-```
-
-Then build and run:
-```sh
-docker build -t my-custom-api .
-docker run -p 8080:8080 my-custom-api
-```
-
-## 📜 License
-This project is licensed under the MIT License.
-
 ---
 
 If you encounter any issues, feel free to reach out! 🚀
