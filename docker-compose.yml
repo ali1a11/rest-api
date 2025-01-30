@@ -2,8 +2,9 @@ version: '3.8'
 
 services:
   nginx:
-    build:
-      context: ./nginx
+    # build:
+    #   context: ./nginx
+    image: alia012/rest-api-nginx:latest
     ports:
       - "80:80"
     networks:
@@ -11,9 +12,10 @@ services:
     depends_on:
       - simpleapi
   simpleapi:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    # build:
+    #   context: .
+    #   dockerfile: Dockerfile
+    image: alia012/rest-api-simpleapi:latest
     ports:
       - "8080:8080"
     environment:
