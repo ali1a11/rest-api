@@ -86,6 +86,8 @@ To stop the containers, run:
 ```sh
 docker-compose down
 ```
+🌐 API Endpoint
+http://localhost:8080/SimpleApi
 
 ## 🔗 Docker Hub Repositories
 - **REST API:** [alia012/rest-api-simpleapi](https://hub.docker.com/r/alia012/rest-api-simpleapi)
